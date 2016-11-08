@@ -1,5 +1,13 @@
 {
   "MailSettings": {
-    "ToAddress":  "brquiroga@gmail.com"
+    "ToAddress": "brquiroga@gmail.com"
+  },
+
+  "ConnectionStrings": {
+    "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDb;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+  },
+
+  "ApiKeys": {
+    "BingKey" :  "SOMEKEY"
   }
 }

@@ -1,33 +1,4 @@
 ﻿/* site.css */
-body {
-    font-family: sans-serif;
-    font-size: 14px;
-    margin: 0;
-}
-
-label {
-    font-weight: bold;
-    display: block;
-}
-
-input[type=text], input[type=password], textarea {
-    width: 150px;
-}
-
-#main {
-    background-color: #eee;
-    padding: 4px;
-    margin: 0;
-}
-
-#footer {
-    background-color: #222;
-    color: #eee;
-    padding: 8px 5px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 .headshot {
     max-width: 50px;
@@ -43,7 +14,7 @@ input[type=text], input[type=password], textarea {
         list-style-type: none;
     }
 
-        .menu li.active {
+        .menu .active {
             font-weight: bold;
         }
 
